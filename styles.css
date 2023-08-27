@@ -14,7 +14,7 @@ a{
 }
 
 .hero{
-  height: 100vh;
+     height: 100vh;
     /* background-image: url(images/hero.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -105,4 +105,41 @@ a:hover{
         width:450px;
         padding:45px 30px;
     }
+}
+
+.categories .message{
+ width:100%;
+ display: flex;
+
+}
+
+
+   
+
+
+.new-furn{
+    background-image: url(images/furn.jpg);
+    background-repeat: no-repeat;
+   background-attachment:scroll;
+   background-size: cover;
+   background-position: center;
+    padding:80px 200px ;
+    margin: 0 20px;
+    align-self: flex-start;
+    
+   
+}
+
+
+
+
+.new-bask{
+    background-image: url(images/bask.jpg);
+    background-repeat: no-repeat;
+   background-attachment:scroll;
+   background-position: center;
+   background-size: cover;
+    padding:80px 200px;
+    
+   
 }
