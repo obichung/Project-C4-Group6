@@ -1,0 +1,305 @@
+.categories {
+   margin:40px 5px;
+   width: 100%;
+  
+   }
+   
+   .categories .container{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+   }
+
+   .categories .new-furn{
+    background: url(images/furn.jpg) no-repeat scroll center / cover;
+    height: 200px;
+    width: 355px;
+    margin-bottom: 15px;
+   }
+   .categories .new-bask{
+    background: url(images/bask.jpg) no-repeat scroll center / cover;
+    height: 200px;
+    width: 355px;
+   }
+
+   .categories p{
+    width:150px;
+    text-align: center;
+    padding: 40px 10px;
+   }
+
+   .best-products{
+      width:100%;
+    
+      
+   }
+
+   .best-products .container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .best-products h2{
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      font-size: 30px;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: 0em; 
+      margin-bottom: 20px;
+   }
+
+ .best-products .furniture{
+      background:url(images/pr1.png) no-repeat  scroll center / cover;
+     width: 350px;
+     height: 350px;
+     margin:0 auto ;
+     display: flex;
+     flex-direction: column;
+   
+     
+   }
+
+   .furniture p{
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      width: 150px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 20px;
+      letter-spacing: 0em;
+      margin: 0 auto;
+      padding-bottom: 30px;
+      color: #FFFFFF;
+     
+   }
+
+.best-products .furniture p:not(:last-child){
+   padding-top: 140px;
+}
+
+.best-products .cup{
+   background:url(images/pr2.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.cup p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF;
+  
+}
+
+.best-products .cup p:not(:last-child){
+   padding-top: 135px;
+}
+
+.best-products .bag{
+   background:url(images/pr3.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.bag p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF;
+  
+}
+
+.best-products .bag p:not(:last-child){
+   padding-top: 135px;
+}
+
+
+
+
+.best-products .pencil-holder{
+   background:url(images/pr4.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.pencil-holder p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF; 
+}
+
+.best-products .pencil-holder p:not(:last-child){
+   padding-top: 135px;
+}
+
+
+.best-products .key-holder{
+   background:url(images/pr5.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.key-holder p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF; 
+}
+
+.best-products .key-holder p:not(:last-child){
+   padding-top: 135px;
+}
+
+
+.best-products .cotton-canvas{
+   background:url(images/pr6.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.cotton-canvas p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF;
+  
+}
+
+.best-products .cotton-canvas p:not(:last-child){
+   padding-top: 135px;
+}
+
+
+
+.best-products .Michael-Kors{
+   background:url(images/pr7.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.Michael-Kors p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF;
+  
+}
+
+.best-products .Michael-Kors p:not(:last-child){
+   padding-top: 135px;
+}
+
+
+
+.best-products .Bostanten-Women{
+   background:url(images/pr8.png) no-repeat  scroll center / cover;
+  width: 350px;
+  height: 350px;
+  margin:0 auto ;
+  display: flex;
+  flex-direction: column; 
+  margin-top: 15px;
+}
+
+.Bostanten-Women p{
+   text-align: center;
+   justify-content: center;
+   align-items: center;
+   width: 150px;
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 20px;
+   letter-spacing: 0em;
+   margin: 0 auto;
+   padding-bottom: 30px;
+   color: #FFFFFF;
+  
+}
+
+.best-products .Bostanten-Women p:not(:last-child){
+   padding-top: 135px;
+}
+
+
+

@@ -1,0 +1,38 @@
+.recent-news{
+    width: 100%;
+
+}
+
+.recent-news .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-news h2{
+ margin: 30px auto;
+}
+
+.recent-news .blog1{
+    background: url(images/b1.jpg) no-repeat  scroll center  / cover;
+    height: 370px;
+    width:350px;
+    
+   
+}
+.recent-news .blog2{
+    background: url(images/b2.jpg) no-repeat  scroll center  / cover;
+    height: 370px;
+    width:350px;
+   margin-top: 20px;
+   
+}
+.recent-news .blog3{
+    background: url(images/b3.jpg) no-repeat  scroll center  / cover;
+    height: 370px;
+    width:350px;
+   margin-top: 20px;
+   
+}
+
