@@ -13,54 +13,7 @@ a{
     text-decoration: none;
 }
 
-.hero{
-     height: 100vh;
-    /* background-image: url(images/hero.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover; */
-    background: url(images/hero.jpg) no-repeat scroll center center / cover;
-    display: flex;
-   justify-content: center;
-   align-items: center;
-}
 
-.headline{
-width: 300px;
-height: 210px;
-
-
-}
-
-.hero .headline{
-    background-color: rgba(255, 255, 255, 0.75);
-    padding: 35px 20px;
-    text-align: center;
-    z-index: 2;
-}
-
-.hero .container{
-   width: 90%;
-   position: absolute;
-   top: 32px;
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin: 0 auto;
-   z-index: 2;
-}
-.headline .h1{
-font-size: 30px;
-font-weight: 100;
-line-height: 33px;
-}
-
-.nav ul, .menu_icon{
-    display: flex;
-    gap: 13px;
-
-}
 
 ul li{
     list-style: none;
@@ -71,10 +24,6 @@ a:hover{
 }
 
 
-.nav a, .topicon{
-    color: #fff;
-}
-
 .overlay{
     position: absolute;
     background-color: rgba(0,0,0,0.4);
@@ -84,62 +33,9 @@ a:hover{
     z-index: -5;
 }
 
-.shop-btn{
-    font-family: 'Dosis',sans-serif;
-    color: #000;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 16px;
-    border-bottom: 3px solid #000;
-}
 
-
-@media (max-width:900px) {
-    .nav {
-        display: none;
-    }
-}
-
-@media (min-width:900px){
-    .hero .headline{
-        width:450px;
-        padding:45px 30px;
-    }
-}
-
-.categories .message{
- width:100%;
- display: flex;
-
-}
 
 
    
 
 
-.new-furn{
-    background-image: url(images/furn.jpg);
-    background-repeat: no-repeat;
-   background-attachment:scroll;
-   background-size: cover;
-   background-position: center;
-    padding:80px 200px ;
-    margin: 0 20px;
-    align-self: flex-start;
-    
-   
-}
-
-
-
-
-.new-bask{
-    background-image: url(images/bask.jpg);
-    background-repeat: no-repeat;
-   background-attachment:scroll;
-   background-position: center;
-   background-size: cover;
-    padding:80px 200px;
-    
-   
-}
