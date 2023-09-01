@@ -1,0 +1,60 @@
+/* The footer css */
+.footer{
+  background: #EFEFEF;
+}
+
+.footer .container{
+  margin-left:20px;
+  padding: 35px 0 15px;
+
+
+}
+
+.footer .logo{
+    margin-bottom: 15px;
+}
+    .address {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px; /* Add margin between address blocks */
+    }
+    
+    .icon {
+      margin-right: 12px;
+    }
+
+    .icon i {
+      width: 24px;
+      height: 24px;
+    }
+
+    .text-address {
+      margin: 0;
+    }
+
+    .newsletter{
+        margin: 40px 0 15px;
+    }
+
+    .sub-form{
+      display: flex;
+    }
+
+     button{
+      height: 40px; 
+      width: 43px ;
+      margin-left: -5px;
+      border: none;
+      background-color: #D9D9D9;
+      z-index: 1;
+      
+    } 
+
+    .sub-form input{
+      width: 300px;
+      height: 40px;
+      border: 1px solid #D9D9D9;
+      padding-left: 8px;
+    }
+
+    

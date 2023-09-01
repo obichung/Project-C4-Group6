@@ -1,38 +1,86 @@
-.recent-news{
-    width: 100%;
-
+.recents .container {
+  width: 95%;
+  margin: 0 auto;
 }
 
-.recent-news .container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.recents {
+  padding: 50px 0;
 }
 
-.recent-news h2{
- margin: 30px auto;
+.recents_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
-.recent-news .blog1{
-    background: url(images/b1.jpg) no-repeat  scroll center  / cover;
-    height: 370px;
-    width:350px;
-    
-   
+.recents h2{
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  
 }
-.recent-news .blog2{
-    background: url(images/b2.jpg) no-repeat  scroll center  / cover;
-    height: 370px;
-    width:350px;
-   margin-top: 20px;
-   
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .recents_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
-.recent-news .blog3{
-    background: url(images/b3.jpg) no-repeat  scroll center  / cover;
-    height: 370px;
-    width:350px;
-   margin-top: 20px;
-   
+
+@media (max-width: 600px) {
+  .recents_container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+}
+
+.recent {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.recents h2 {
+  margin: 30px auto;
+}
+
+.recents .blog1 {
+  background: url(images/b1.jpg) no-repeat scroll center / cover;
+}
+.recents .blog2 {
+  background: url(images/b2.jpg) no-repeat scroll center / cover;
+}
+.recents .blog3 {
+  background: url(images/b3.jpg) no-repeat scroll center / cover;
+}
+
+.recents .content {
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.read-more{
+  display: flex;
+  align-items: center;
+}
+
+.recents .read-btn {
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-family: "Dosis", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 

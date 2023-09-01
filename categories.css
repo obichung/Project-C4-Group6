@@ -1,305 +1,205 @@
+.category {
+  width: 100%;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: center;
+  padding: 1rem;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.new-furn {
+  background-image: url(images/furn.jpg);
+}
+.new-bask {
+  background-image: url(images/bask.jpg);
+}
+
+.category h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: 1rem;
+}
+
+.shopnow-btn {
+  font-family: "Dosis", sans-serif;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 900px) {
+  .break::before {
+    content: "\a";
+    white-space: pre;
+  }
+  .category {
+    height: 240px;
+    margin: 20px auto;
+    width: 100%;
+  }
+}
+
 .categories {
-   margin:40px 5px;
-   width: 100%;
-  
-   }
-   
-   .categories .container{
+  margin: 3rem 15px;
+}
+
+@media (min-width: 601px) and (max-width: 899px) {
+  .categories .container {
+    margin: 0 auto;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-   
-   }
-
-   .categories .new-furn{
-    background: url(images/furn.jpg) no-repeat scroll center / cover;
-    height: 200px;
-    width: 355px;
-    margin-bottom: 15px;
-   }
-   .categories .new-bask{
-    background: url(images/bask.jpg) no-repeat scroll center / cover;
-    height: 200px;
-    width: 355px;
-   }
-
-   .categories p{
-    width:150px;
-    text-align: center;
-    padding: 40px 10px;
-   }
-
-   .best-products{
-      width:100%;
-    
-      
-   }
-
-   .best-products .container{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .best-products h2{
-      text-align: center;
-      font-family: 'Poppins', sans-serif;
-      font-size: 30px;
-      font-weight: 500;
-      line-height: 25px;
-      letter-spacing: 0em; 
-      margin-bottom: 20px;
-   }
-
- .best-products .furniture{
-      background:url(images/pr1.png) no-repeat  scroll center / cover;
-     width: 350px;
-     height: 350px;
-     margin:0 auto ;
-     display: flex;
-     flex-direction: column;
-   
-     
-   }
-
-   .furniture p{
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-      width: 150px;
-      font-family: 'Poppins', sans-serif;
-      font-size: 16px;
-      font-weight: 500;
-      line-height: 20px;
-      letter-spacing: 0em;
-      margin: 0 auto;
-      padding-bottom: 30px;
-      color: #FFFFFF;
-     
-   }
-
-.best-products .furniture p:not(:last-child){
-   padding-top: 140px;
+    height: 240px;
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+  .category {
+    width: 48%;
+  }
 }
 
-.best-products .cup{
-   background:url(images/pr2.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
+@media (min-width: 900px) {
+  .categories .container {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    height: 300px;
+    flex: 0 1 auto;
+    justify-content: space-between;
+  }
+  .category {
+    width: 49%;
+  }
 }
 
-.cup p{
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-   margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF;
+/* The css for Best-producs section */
+
+.furniture {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
   
 }
 
-.best-products .cup p:not(:last-child){
-   padding-top: 135px;
-}
-
-.best-products .bag{
-   background:url(images/pr3.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
-}
-
-.bag p{
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
+.products .container{
    margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF;
+   width: 95%;
+
+}
+
+.products{
+   padding:50px 0;
+}
+
+.products h2{
+  font-family: 'Poppins', sans-serif ;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  padding: 20px 0;
+  
+
   
 }
 
-.best-products .bag p:not(:last-child){
-   padding-top: 135px;
+.products_container{
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   gap:20px;
 }
 
-
-
-
-.best-products .pencil-holder{
-   background:url(images/pr4.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
+@media (min-width:600px) and (max-width:900px) {
+.products_container{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap:20px;
+}
 }
 
-.pencil-holder p{
+@media (max-width:500px) {
+ .products_container{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap:20px;
+   }
+}
+
+.product{
+   height: 300px;
+   color: #fff;
    text-align: center;
-   justify-content: center;
+   display: flex;
+   flex-direction: column;
    align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-   margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF; 
-}
-
-.best-products .pencil-holder p:not(:last-child){
-   padding-top: 135px;
-}
-
-
-.best-products .key-holder{
-   background:url(images/pr5.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
-}
-
-.key-holder p{
-   text-align: center;
    justify-content: center;
-   align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-   margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF; 
-}
-
-.best-products .key-holder p:not(:last-child){
-   padding-top: 135px;
-}
-
-
-.best-products .cotton-canvas{
-   background:url(images/pr6.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
-}
-
-.cotton-canvas p{
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-   margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF;
-  
-}
-
-.best-products .cotton-canvas p:not(:last-child){
-   padding-top: 135px;
 }
 
 
 
-.best-products .Michael-Kors{
-   background:url(images/pr7.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
+.cup {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr2.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.Michael-Kors p{
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-   margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF;
-  
+ .bag {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr3.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.best-products .Michael-Kors p:not(:last-child){
-   padding-top: 135px;
+ .pencil-holder {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr4.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-
-.best-products .Bostanten-Women{
-   background:url(images/pr8.png) no-repeat  scroll center / cover;
-  width: 350px;
-  height: 350px;
-  margin:0 auto ;
-  display: flex;
-  flex-direction: column; 
-  margin-top: 15px;
+ .key-holder {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.Bostanten-Women p{
-   text-align: center;
-   justify-content: center;
-   align-items: center;
-   width: 150px;
-   font-family: 'Poppins', sans-serif;
-   font-size: 16px;
-   font-weight: 500;
-   line-height: 20px;
-   letter-spacing: 0em;
-   margin: 0 auto;
-   padding-bottom: 30px;
-   color: #FFFFFF;
-  
+ .cotton-canvas {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr6.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.best-products .Bostanten-Women p:not(:last-child){
-   padding-top: 135px;
+ .Michael-Kors {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr7.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-
-
+ .Bostanten-Women {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pr8.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
