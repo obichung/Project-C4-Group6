@@ -29,10 +29,7 @@
       height: 24px;
     }
 
-    .text-address {
-      margin: 0;
-    }
-
+    
     .newsletter{
         margin: 40px 0 15px;
     }
@@ -58,3 +55,28 @@
       padding-left: 8px;
     }
 
+@media (min-width:600px) and (max-width:900px) {
+ 
+
+  .footer .newsletter-container{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+   margin-top: -150px;
+   margin-left: 250px;
+    
+  }
+}
+
+@media (min-width:900px) {
+
+  .footer .newsletter-container{
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+   margin-top: -150px;
+   margin-left: 250px;
+   width:1280px ;
+    
+  }
+}
