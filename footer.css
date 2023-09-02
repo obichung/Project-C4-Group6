@@ -4,7 +4,7 @@
 }
 
 .footer .container{
-  margin-left:20px;
+  margin: 0 0 50px 10px;
   padding: 35px 0 15px;
 
 }
@@ -88,5 +88,8 @@
   }
   .footer hr{
     width: 85%;
+  }
+  .footer .container{
+    margin: 0 0 50px 100px;
   }
 }

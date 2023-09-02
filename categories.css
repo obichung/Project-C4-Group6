@@ -15,6 +15,11 @@
 .new-furn {
   background-image: url(images/furn.jpg);
 }
+@media (max-width:500px){
+  .category {
+    height: 240px;
+  }
+}
 .new-bask {
   background-image: url(images/bask.jpg);
 }
